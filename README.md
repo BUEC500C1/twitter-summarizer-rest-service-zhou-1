@@ -20,5 +20,17 @@ Command for downloading Flask using pip
 ```
 pip install -U Flask
 ```
+## Flask-RESTful     
+Install Flask-RESTful with pip    
+```
+pip install flask-restful
+```
+
+
+
+
+
+
+
 
 
