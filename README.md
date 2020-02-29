@@ -14,3 +14,11 @@ Develop simple WEB applications to test your system.
 Document your REST APIs on your Github    
 Keep your server off until we request it for grading.  We dont want you to waste money.     
 
+# Set up    
+## Flask    
+Command for downloading Flask using pip     
+```
+pip install -U Flask
+```
+
+
