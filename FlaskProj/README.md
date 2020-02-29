@@ -1,5 +1,4 @@
 # Flask    
-
 Flask is a lightweight WSGI (Web Server Gateway Interface) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications.    
 
 ## Install Flask   
@@ -23,4 +22,23 @@ $ env FLASK_APP=simpFlask.py flask run
  * Debug mode: off
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
+
+# Flask-RESTful     
+Flask-RESTful is an extension for Flask that adds support for quickly building REST APIs. It is a lightweight abstraction that works with your existing ORM/libraries.      
+Install Flask-RESTful with pip    
+```
+pip install flask-restful
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
