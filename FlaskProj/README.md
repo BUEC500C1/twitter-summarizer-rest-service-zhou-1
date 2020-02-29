@@ -33,6 +33,22 @@ pip install flask-restful
 ```
 
 ## How to run file with Flask-RESTful   
+run simpFlaskRESTful program:   
+```
+python simpFlaskRESTful.py
+```
+Then on shell, use below command:   
+```
+$ python simpFlaskRESTful.py 
+ * Serving Flask app "simpFlaskRESTful" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [29/Feb/2020 16:14:11] "GET / HTTP/1.1" 200 -
+
+```
 
 
 
