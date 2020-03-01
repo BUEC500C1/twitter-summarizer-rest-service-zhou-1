@@ -27,7 +27,9 @@ Install Flask-RESTful with pip
 pip install flask-restful
 ```
 
-
+# Examples    
+## Flask &Flask-RESTful     
+Examples can be [viewed here](https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhou-1/tree/master/FlaskProj)    
 
 
 
