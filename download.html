@@ -1,0 +1,30 @@
+<!doctype html>
+
+<title>Download page</title>
+<h2 style="text-align:center"><font size="20" color="red">Download your video by clicking download button</font></h2>
+<body background="https://about.twitter.com/content/dam/about-twitter/company/brand-resources/en_us/OTB_Company_Blue.png.img.fullhd.medium.png">
+<p>
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <ul class=flashes>
+    {% for message in messages %}
+      <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+  {% endwith %}
+</p>
+
+<p align="center">
+  <video width="320" height="240" controls>
+    <source src="{{ url_for('download', filename=filename) }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+<form method="post" style="text-align:center">
+  <input type="submit" value="Download" >
+</form>
+
+
+</body>
