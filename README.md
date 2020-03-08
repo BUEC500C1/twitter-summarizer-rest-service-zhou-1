@@ -76,11 +76,27 @@ My program is running on an AWS EC2 instance inside of a docker container.
 ## Steps   
 First, create an Amazon EC2 instance with Ubuntu.   
 Second, Connect the Linux Instance Using SSH.    
+One way to transfer files between your local computer and a Linux instance is to use the secure copy protocol (SCP).    
 Now, the program is running on AWS. When I use it, everyone can see it through:   
 
 
+### use SCP to transfer a file    
+use the following command to copy the file to the ec2-user home directory.    
+```
+scp -i /path/my-key-pair.pem /path/SampleFile.txt ec2-user@ec2-198-51-100-1.compute-1.amazonaws.com:~
+```
 
+### Run AWS and App    
+Connect to Your Linux Instance using an SSH Client:   
+```
+ssh -i /path/my-key-pair.pem ec2-user@ec2-198-51-100-1.compute-1.amazonaws.com   
+```
+Then run the program:   
+```
+python flaskWeb.py
+```
 
+You can go to the webpage to see below interfaces:   
 
 
 
