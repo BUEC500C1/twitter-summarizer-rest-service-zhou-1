@@ -27,8 +27,8 @@ Install Flask-RESTful with pip
 pip install flask-restful
 ```
 
-# Examples    
-## Flask &Flask-RESTful     
+### Examples    
+#### Flask &Flask-RESTful     
 Examples can be [viewed here](https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhou-1/tree/master/FlaskProj)    
 
 ## This project   
@@ -56,6 +56,19 @@ On your shell/terminal, run this program by typing below command:
 ```
 python flaskWeb.py
 ```
+Then you can go to link: http://127.0.0.1:5000/ to see the main page.    
+The index page will be looked like below:    
+![index](imgs/Main.PNG)     
+
+Once you type in the Twitter ID you would like to search for, click the submit button; the program will take you to download page directly. Download page looks like below:
+![download](imgs/download.PNG)     
+
+
+
+
+
+
+
 
 
 
