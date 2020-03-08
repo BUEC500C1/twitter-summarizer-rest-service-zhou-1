@@ -83,7 +83,8 @@ Now, the program is running on AWS. When I use it, everyone can see it through:
 ### use SCP to transfer a file    
 use the following command to copy the file to the ec2-user home directory.    
 ```
-scp -i /path/my-key-pair.pem /path/SampleFile.txt ec2-user@ec2-198-51-100-1.compute-1.amazonaws.com:~
+scp -i /path/my-key-pair.pem /path/SampleFile.txt ec2-user@ec2-198-51-100-1.compute-1.amazonaws.com:~ 
+(here, ec2-user is ubuntu)   
 ```
 
 ### Run AWS and App    
@@ -93,7 +94,7 @@ ssh -i /path/my-key-pair.pem ec2-user@ec2-198-51-100-1.compute-1.amazonaws.com
 ```
 Then run the program:   
 ```
-python flaskWeb.py
+sudo python3 flaskWeb.py
 ```
 
 You can go to the webpage to see below interfaces:   
