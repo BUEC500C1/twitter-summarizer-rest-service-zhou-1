@@ -66,8 +66,17 @@ The index page will be looked like below:
 Once you type in the Twitter ID you would like to search for, click the submit button; the program will take you to download page directly. Download page looks like below:
 ![download](imgs/download.PNG)     
 
-# Deployment to AWS
-Tutorial can be viewed [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)     
+# Deployment to AWS    
+My program is running on an AWS EC2 instance inside of a docker container.   
+
+## Tutorials 
+[Connecting to Your Linux Instance Using SSH](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)       
+[How To Launch Amazon EC2 Instance With Ubuntu](https://geraldalinio.com/aws/ec2/how-to-launch-amazon-ec2-instance-with-ubuntu-18-04/)  
+
+## Steps   
+First, create an Amazon EC2 instance with Ubuntu.   
+Second, Connect the Linux Instance Using SSH.    
+Now, the program is running on AWS. When I use it, everyone can see it through:   
 
 
 
