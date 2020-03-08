@@ -1,5 +1,5 @@
 # Goal    
-Make your HW4 a REST service running on AWS      
+Make your HW4 "Convert Tweet contents to a video" a REST service running on AWS      
 
 ## Details   
 Step 1: Use Flask as your WEB service platform     
@@ -31,7 +31,22 @@ pip install flask-restful
 ## Flask &Flask-RESTful     
 Examples can be [viewed here](https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhou-1/tree/master/FlaskProj)    
 
+## This project   
+clone this repo     
+```
 
+```
+
+Install all requirements for this program   
+```
+
+```
+
+### Run this program    
+On your shell/terminal, run this program by typing below command:   
+```
+
+```
 
 
 
