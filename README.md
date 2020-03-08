@@ -1,6 +1,9 @@
 # Goal    
 Make your HW4 "Convert Tweet contents to a video" a REST service running on AWS      
 
+## Live Demo   
+You can view my basic UI [here](https://zhou-1.github.io/twitter-summarizer-rest-service-zhou-1/)      
+
 ## Details   
 Step 1: Use Flask as your WEB service platform     
 Reference 1:  https://palletsprojects.com/p/flask/ (Github:  https://github.com/pallets/flask )   
