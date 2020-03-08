@@ -67,6 +67,7 @@ Once you type in the Twitter ID you would like to search for, click the submit b
 ![download](imgs/download.PNG)     
 
 # Deployment to AWS
+Tutorial can be viewed [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)     
 
 
 
