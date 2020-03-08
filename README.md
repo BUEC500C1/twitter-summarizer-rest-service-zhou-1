@@ -101,7 +101,28 @@ You can go to the webpage to see below interfaces:
 
 
 
-
+## Tips   
+### “Unable to locate package python-pip” When try to install     
+You have to enable universe category which contains python-pip package.     
+Open /etc/apt/sources.list using an editor, for example nano:     
+```
+sudo nano /etc/apt/sources.list
+```
+then add universe at the end of each line, like this:    
+```
+deb http://archive.ubuntu.com/ubuntu bionic main universe
+deb http://archive.ubuntu.com/ubuntu bionic-security main universe 
+deb http://archive.ubuntu.com/ubuntu bionic-updates main universe
+```
+Press Ctrl+O to save the file.    
+then run:   
+```
+sudo apt update
+```
+and finally:    
+```
+sudo apt install python-pip
+```
 
 
 
