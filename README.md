@@ -54,7 +54,7 @@ access_secret = ****
 ### Run this program    
 On your shell/terminal, run this program by typing below command:   
 ```
-
+python flaskWeb.py
 ```
 
 
