@@ -34,12 +34,12 @@ Examples can be [viewed here](https://github.com/BUEC500C1/twitter-summarizer-re
 ## This project   
 clone this repo     
 ```
-
+git clone https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhou-1.git
 ```
 
 Install all requirements for this program   
 ```
-
+pip3 install -r requirements.txt
 ```
 
 ### Run this program    
