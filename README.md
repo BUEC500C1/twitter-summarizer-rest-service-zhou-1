@@ -42,6 +42,15 @@ Install all requirements for this program
 pip3 install -r requirements.txt
 ```
 
+<b> Important! </b> Please go to keys file, to add in your own Tweepy API keys in below format:
+```
+[auth]
+consumer_key = ****
+consumer_secret = ****
+access_token = ****
+access_secret = ****
+```
+
 ### Run this program    
 On your shell/terminal, run this program by typing below command:   
 ```
