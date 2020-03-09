@@ -9,3 +9,5 @@ flask_migrate==2.1.1
 tweepy
 
 ffmpeg
+
+pytest
