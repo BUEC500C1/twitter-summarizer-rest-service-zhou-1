@@ -97,7 +97,10 @@ Then run the program:
 sudo python3 flaskWeb.py
 ```
 
-You can go to the webpage [ec2-54-193-45-110.us-west-1.compute.amazonaws.com](ec2-54-193-45-110.us-west-1.compute.amazonaws.com)   
+You can go to the webpage (Public DNS (IPv4) )
+```
+ec2-54-193-45-110.us-west-1.compute.amazonaws.com 
+```
 
 Ubuntu instance looks like below:   
 ![ubuntu](imgs/ubuntu.PNG)   
